@@ -24,7 +24,9 @@ greet("Iza", age);
 
 function createContent(querySelectorContent, content) {
 	const element = document.querySelector(querySelectorContent);
-	element.innerHTML = content;
+	if (element) {
+		element.innerHTML = content;
+	}
 }
 
 createContent(".section__paragraph--js", "Zanim to zapamiętam to miną wieki!");
@@ -58,6 +60,6 @@ hamburger.addEventListener("click", () => {
 
 const startOfDay = moment().startOf("day").fromNow();
 
-const timePlaceholder = document.querySelector("time--js");
+const timePlaceholder = document.querySelector(".time--js");
 
 timePlaceholder.innerHTML = startOfDay;
