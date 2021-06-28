@@ -1,17 +1,25 @@
 ![cover](./gh/homepage.png)
 
-# WTF Webpack Starter Kit
+# Homepage 
 
-Simple toolkit for your static websites development.
+About me and learning 'WTF co ten frontend'
 
-## How to use it?
+## Training notes 
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+**Tydzień I**
 
-## Available scripts
+Tydzień I to wprowadzenie do tego co będziemy robić i czego się uczyć. Już nie mogę się doczekać!
 
-`npm run start` - runs development mode
+ **Tydzień II**
 
-`npm run build` - runs build process for production
+W tym tygodniu nauczyłam się podstaw HTML i dowiedziałam się czym są style CSS. 
+Poznałam również takie narzędzie jak validator i codepen-do podzielenia się kodem z innymi 
+Aby nie zaśmiecać HTMLa kodem CSS tworzy się oddzielny plik .css i w znaczniku head wstawia link href= „style.css” rel=”stylesheet" type”text/css" 
+Style jakie poznałam to: color i background
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+**Tydzień III**
+
+W tym tygodniu poznałam narzędzie do planowania pracy, metodę KANBAN, która dzieli zadania na: todo, doing i done. DO tej metody używamy programu trello. 
+Poznałam nowe znaczniki HTML tj: b, i strong, które pogrubiają, oraz i, em, które pochylają. Strong i em, mają znaczenie semantyczne. 
+Nauczyłam się także robić nawigacje wewnętrzną, zewnętrzną i dodawać zdjęcie. 
+Lekcja 4 dotyczyła sposobów nazewnictwa, które często sprawiają sporo problemów...
