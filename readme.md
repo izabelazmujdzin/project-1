@@ -1,4 +1,4 @@
-![cover](./gh/homepage.png)
+![cover](./public/homepage.png)
 
 # Homepage 
 
