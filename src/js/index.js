@@ -63,3 +63,19 @@ const startOfDay = moment().startOf("day").fromNow();
 const timePlaceholder = document.querySelector(".time--js");
 
 timePlaceholder.innerHTML = startOfDay;
+
+fetch('https://api.github.com/users/izabelazmujdzin/repos?sort=created&direction=asc')
+.then(resp => resp.json())
+.then(resp => {
+	for (let repo of resp) {
+	const {name, html_url} = repo;
+	const repositoryList = document.querySelector('.list--js');
+	const myTemplate = `<li>
+		${name} <a href="${html_url}" title="link do repozytorium ${name} na githubie">link do githba</a>
+	</li>`;
+	repositoryList.innerHTML += myTemplate;
+}
+})
+.catch(error => {
+	console.log('nie udało się pobrać');
+})
